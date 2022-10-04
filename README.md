@@ -16,3 +16,6 @@ $ pip install -r requirements.txt
 ```
 $ python main.py
 ```
+
+tweepy docs
+https://docs.tweepy.org/en/stable/index.html
