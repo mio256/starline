@@ -12,9 +12,9 @@ $ python3 -m pip install --upgrade pip
 $ pip install -r requirements.txt
 ```
 
-## main.py
+## oauth_rank_home.py
 ```
-$ python main.py
+$ python oauth_rank_home.py
 ```
 
 tweepy docs
