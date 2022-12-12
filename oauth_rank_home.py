@@ -1,6 +1,7 @@
 import os
-import tweepy
 import datetime
+import requests
+import tweepy
 import webbrowser
 from oauth import oauth, login
 
@@ -20,7 +21,8 @@ client = tweepy.Client(
     os.environ['CONSUMER_KEY'],
     os.environ['CONSUMER_SECRET'],
     access_token,
-    access_token_secret
+    access_token_secret,
+    return_type=requests.Response
 )
 
 data = {}
