@@ -17,5 +17,4 @@ $ pip install -r requirements.txt
 $ python oauth_rank_home.py
 ```
 
-tweepy docs
-https://docs.tweepy.org/en/stable/index.html
+[tweepy docs](https://docs.tweepy.org/en/stable/index.html)
