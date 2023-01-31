@@ -31,7 +31,7 @@ for users_tweets in tweepy.Paginator(
     start_time=datetime.datetime.now() - datetime.timedelta(days=1)
 ):
     for tweet in users_tweets.json()["data"]:
-        id = tweet["id"]
+        id = tweet["text"]
         print(f'{id}')
         try:
             client.like(id)
