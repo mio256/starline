@@ -1,6 +1,7 @@
 import os
 import datetime
 import requests
+import pprint
 import tweepy
 
 client = tweepy.Client(
@@ -20,5 +21,4 @@ for users_tweets in tweepy.Paginator(
     max_results=100,
     start_time=datetime.datetime.now() - datetime.timedelta(days=1)
 ):
-    for tweet in users_tweets.json()["data"]:
-        print(tweet)
+    pprint.pprint(users_tweets.json()["data"])
